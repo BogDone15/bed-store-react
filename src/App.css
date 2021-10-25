@@ -84,6 +84,7 @@ body {
  padding: 2rem;
 }
 .banner-title {
+ text-align: center;
  font-size: 3.4rem;
  text-transform: uppercase;
  letter-spacing: var(--mainSpacing);

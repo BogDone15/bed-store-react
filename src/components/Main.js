@@ -12,11 +12,11 @@ export default class Main extends Component {
      <div className="col-lg-12 text-center">
       <div className="banner">
        <Title title="bed collection" />
+       <Link to="/" className="link__btn"> 
        <ButtonContainer>
-        <Link to="/" className="link__btn"> 
         shop now
-        </Link>
        </ButtonContainer>
+       </Link>
       </div>
      </div>
      </div>

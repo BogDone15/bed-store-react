@@ -21,7 +21,10 @@ export default class Product extends Component {
         </Link>
         <button className="bag-btn" 
           disabled={inCart ? true : false}
-          onClick={() => {value.addToCart(id);}}>
+          onClick={() => {
+            value.addToCart(id);
+            value.openModal(id);
+            }}>
            <i className="fas fa-shopping-cart"></i> 
            {inCart ? "in cart" : 'add to cart'}
           </button>
